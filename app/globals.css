@@ -6,109 +6,111 @@
 :root {
   --radius: 1rem;
   
-  /* Lingxi Design Language - Soft Purple & Mint */
-  --background: 270 30% 98%;
-  --foreground: 270 25% 15%;
+  /* Lingxi Design Language - #7C8CFF → #5B6BFF */
+  --background: 225 33% 98%; /* #F5F7FB */
+  --foreground: 230 15% 20%;
   
   --card: 0 0% 100%;
-  --card-foreground: 270 25% 15%;
+  --card-foreground: 230 15% 20%;
   
   --popover: 0 0% 100%;
-  --popover-foreground: 270 25% 15%;
+  --popover-foreground: 230 15% 20%;
   
-  --primary: 270 60% 65%;
+  --primary: 231 100% 68%; /* #7C8CFF */
+  --primary-dark: 231 100% 60%; /* #5B6BFF */
   --primary-foreground: 0 0% 100%;
   
-  --secondary: 165 45% 75%;
-  --secondary-foreground: 165 50% 20%;
+  --secondary: 225 20% 92%; /* #E5E8F0 */
+  --secondary-foreground: 230 15% 35%;
   
-  --muted: 270 20% 94%;
-  --muted-foreground: 270 15% 45%;
+  --muted: 225 20% 95%; /* #F0F2F7 */
+  --muted-foreground: 225 10% 55%;
   
-  --accent: 165 50% 85%;
-  --accent-foreground: 165 50% 20%;
+  --accent: 231 100% 95%;
+  --accent-foreground: 231 100% 50%;
   
-  --destructive: 0 84% 60%;
+  --destructive: 0 72% 63%; /* #FF4D4F */
   --destructive-foreground: 0 0% 100%;
   
-  --border: 270 20% 90%;
-  --input: 270 20% 90%;
-  --ring: 270 60% 65%;
+  --border: 225 20% 90%; /* #E5E8F0 */
+  --input: 225 20% 95%;
+  --ring: 231 100% 68%;
   
   /* Lingxi Custom Colors */
-  --lingxi-purple: 270 60% 65%;
-  --lingxi-purple-light: 270 50% 92%;
-  --lingxi-mint: 165 45% 75%;
-  --lingxi-mint-light: 165 40% 92%;
-  --lingxi-gold: 40 85% 55%;
-  --lingxi-pink: 340 60% 75%;
+  --lingxi-blue: 231 100% 68%; /* #7C8CFF */
+  --lingxi-blue-dark: 231 100% 60%; /* #5B6BFF */
+  --lingxi-gray: 225 33% 98%; /* #F5F7FB */
+  --lingxi-border: 225 20% 90%; /* #E5E8F0 */
+  --lingxi-price: 0 72% 63%; /* #FF4D4F */
+  --lingxi-success: 145 63% 49%; /* Green dot */
   
-  --chart-1: 270 60% 65%;
-  --chart-2: 165 45% 75%;
-  --chart-3: 40 85% 55%;
-  --chart-4: 340 60% 75%;
+  --chart-1: 231 100% 68%;
+  --chart-2: 145 63% 49%;
+  --chart-3: 0 72% 63%;
+  --chart-4: 40 85% 55%;
   --chart-5: 200 70% 60%;
   
   --sidebar-background: 0 0% 100%;
-  --sidebar-foreground: 270 25% 15%;
-  --sidebar-primary: 270 60% 65%;
+  --sidebar-foreground: 230 15% 20%;
+  --sidebar-primary: 231 100% 68%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 270 20% 94%;
-  --sidebar-accent-foreground: 270 25% 15%;
-  --sidebar-border: 270 20% 90%;
-  --sidebar-ring: 270 60% 65%;
+  --sidebar-accent: 225 20% 95%;
+  --sidebar-accent-foreground: 230 15% 20%;
+  --sidebar-border: 225 20% 90%;
+  --sidebar-ring: 231 100% 68%;
 }
 
 .dark {
-  --background: 270 20% 8%;
-  --foreground: 270 10% 95%;
+  --background: 230 20% 8%;
+  --foreground: 230 10% 95%;
   
-  --card: 270 20% 12%;
-  --card-foreground: 270 10% 95%;
+  --card: 230 20% 12%;
+  --card-foreground: 230 10% 95%;
   
-  --popover: 270 20% 12%;
-  --popover-foreground: 270 10% 95%;
+  --popover: 230 20% 12%;
+  --popover-foreground: 230 10% 95%;
   
-  --primary: 270 55% 60%;
+  --primary: 231 100% 68%;
+  --primary-dark: 231 100% 60%;
   --primary-foreground: 0 0% 100%;
   
-  --secondary: 165 40% 35%;
-  --secondary-foreground: 165 30% 95%;
+  --secondary: 230 15% 20%;
+  --secondary-foreground: 230 10% 85%;
   
-  --muted: 270 15% 20%;
-  --muted-foreground: 270 10% 65%;
+  --muted: 230 15% 18%;
+  --muted-foreground: 230 10% 60%;
   
-  --accent: 165 35% 25%;
-  --accent-foreground: 165 30% 95%;
+  --accent: 231 50% 25%;
+  --accent-foreground: 231 100% 85%;
   
-  --destructive: 0 70% 45%;
+  --destructive: 0 65% 55%;
   --destructive-foreground: 0 0% 100%;
   
-  --border: 270 15% 20%;
-  --input: 270 15% 20%;
-  --ring: 270 55% 60%;
+  --border: 230 15% 22%;
+  --input: 230 15% 18%;
+  --ring: 231 100% 68%;
   
-  --lingxi-purple: 270 55% 60%;
-  --lingxi-purple-light: 270 30% 20%;
-  --lingxi-mint: 165 40% 35%;
-  --lingxi-mint-light: 165 30% 18%;
-  --lingxi-gold: 40 75% 45%;
-  --lingxi-pink: 340 50% 55%;
+  --lingxi-blue: 231 100% 68%;
+  --lingxi-blue-dark: 231 100% 60%;
+  --lingxi-gray: 230 20% 10%;
+  --lingxi-border: 230 15% 22%;
+  --lingxi-price: 0 65% 55%;
+  --lingxi-success: 145 55% 42%;
   
-  --chart-1: 270 55% 60%;
-  --chart-2: 165 40% 35%;
-  --chart-3: 40 75% 45%;
-  --chart-4: 340 50% 55%;
-  --chart-5: 200 60% 50%;
+  --chart-1: 231 100% 68%;
+  --chart-2: 145 55% 42%;
+  --chart-3: 0 65% 55%;
+  --chart-4: 40 70% 45%;
+  --chart-5: 200 55% 50%;
   
-  --sidebar-background: 270 20% 10%;
-  --sidebar-foreground: 270 10% 95%;
-  --sidebar-primary: 270 55% 60%;
+  --sidebar-background: 230 20% 10%;
+  --sidebar-foreground: 230 10% 95%;
+  --sidebar-primary: 231 100% 68%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 270 15% 18%;
-  --sidebar-accent-foreground: 270 10% 95%;
-  --sidebar-border: 270 15% 20%;
-  --sidebar-ring: 270 55% 60%;
+  --sidebar-accent: 230 15% 16%;
+  --sidebar-accent-foreground: 230 10% 95%;
+  --sidebar-border: 230 15% 22%;
+  --sidebar-ring: 231 100% 68%;
 }
 
 @layer base {
@@ -128,37 +130,43 @@
 }
 
 .lingxi-scrollbar::-webkit-scrollbar-track {
-  background: hsl(var(--muted));
-  border-radius: 2px;
+  background: transparent;
 }
 
 .lingxi-scrollbar::-webkit-scrollbar-thumb {
-  background: hsl(var(--primary) / 0.3);
+  background: hsl(var(--primary) / 0.2);
   border-radius: 2px;
 }
 
 .lingxi-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: hsl(var(--primary) / 0.5);
+  background: hsl(var(--primary) / 0.4);
 }
 
-/* Lingxi Gradient Backgrounds */
-.lingxi-gradient-purple {
-  background: linear-gradient(135deg, hsl(var(--lingxi-purple-light)) 0%, hsl(var(--lingxi-mint-light)) 100%);
+/* Hide scrollbar for horizontal scroll */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
 }
 
-.lingxi-gradient-primary {
-  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(340 60% 70%) 100%);
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-/* Lingxi Card Glow Effect */
-.lingxi-glow {
-  box-shadow: 
-    0 4px 20px -2px hsl(var(--primary) / 0.15),
-    0 2px 8px -2px hsl(var(--primary) / 0.1);
+/* Lingxi Gradient - Primary Button */
+.lingxi-gradient {
+  background: linear-gradient(135deg, #7C8CFF 0%, #5B6BFF 100%);
 }
 
-.lingxi-glow-mint {
-  box-shadow: 
-    0 4px 20px -2px hsl(var(--secondary) / 0.25),
-    0 2px 8px -2px hsl(var(--secondary) / 0.15);
+/* Lingxi Card Shadow */
+.lingxi-shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.lingxi-shadow-lg {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Safe area for bottom input */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0);
 }
